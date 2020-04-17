@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li,
+nav a {
+    padding: 9px;
+    color: #ddddd9;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+nav {
+    text-align: center;
+    background-color: #11117d;
+}
+
+section {
+    display: -webkit-box;
+}
+
+.color-dark {
+    background: #060c58fa;
+    padding: 3rem 0;
+    margin: 0;
+    color: #ddddd9;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+a {
+    color: #ddddd9;
+}
+
+a:hover {
+    color: #21e6e6;
+    font-weight: 900;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+
+img {
+    border: 4px solid;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.home-address {
+    /* display: inline-flex; */
+    list-style: none;
+    padding: inherit;
+    margin: inherit;
+}
+
+.stack {
+    margin: 0;
+    font-weight: 900;
+    color: #21e6e6;
+}
+
+.home-address li {
+    padding-right: 2rem;
+}
+
+.light-black {
+    background: #2b2828;
+    padding: 16px;
+    color: #ddddd9;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 3px solid #12295b;
+    width: max-content;
+    color: #12295b;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.about-profile {
+    padding: 0 2rem 0 0;
+}
+
+h4 {
+    font-size: 19px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+h5 {
+    margin-bottom: 0;
+    color: #21e6e6;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.xperience ul {
+    margin: 9px 0;
+    list-style: square;
+}
+
+form input,
+textarea {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 2.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 0 5px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.slack {
+    font-weight: 900;
+    color: #ced4da;
+}
+
+.form-div {
+    padding: 1.5rem;
+    border-width: .2rem;
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    box-shadow: -1px 1px 6px 0px;
+}
+
+.xperience li {
+    padding: 6px 0;
+}
+
+.home-address i {
+    padding-right: 0.5rem;
+}
+
+footer {
+    background: #12295b;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fa {
+    color: #ffffff;
+}
+
+.pd {
+    padding: 0.1rem 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mb-5 {
+    margin-bottom: 5rem !important;
+}
+
+.mt-5 {
+    margin-top: 5rem !important;
+}
+
+.submit {
+    background: #12295b;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.submit:hover {
+    background: #21e6e6;
+    color: #ffffff;
+    width: 50%;
+    margin: auto;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.d-flex-box {
+    display: flex;
+}
+
+.grow-8 {
+    flex-grow: 8
+}
+
+.interest {
+    text-align: center;
+}
+
+.form-section {
+    background: #e7ecec;
+}
+
+.interest li {
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    padding: 2px 15px;
+    border-radius: 5px;
+    margin-left: 9px;
+}
+
+.interest h2 {
+    margin: auto;
+}
+
+@media(min-width: 1200px) {
+    .container {
+        padding: 0 15px;
+        width: 80%;
+        margin: auto;
+    }
+    .width-50 {
+        width: 50%;
+    }
+    .home-address {
+        display: inline-flex;
+        list-style: none;
+        padding: inherit;
+        margin: inherit;
+    }
+    .form-div {
+        width: 50%;
+        margin: auto;
+    }
+    .d-flex {
+        display: inline-flex;
+    }
+}
+
+@media(max-width: 1200px) {
+    .form-div {
+        padding: 1.5rem;
+        border-width: .2rem;
+        border: 1px solid #cccccc;
+        /* width: 100%; */
+        margin: auto;
+        margin-left: 0px;
+    }
+    .d-block {
+        display: block;
+    }
+    h2 {
+        width: fit-content;
+    }
+    .about-profile {
+        padding: 17px;
+    }
+    .social-icon {
+        display: inline-flex;
+    }
+    .nav-ul ul {
+        display: block;
+        /* position: fixed;
+        background: #12295b;
+        min-height: 100%;
+        text-align: left; */
+    }
+    /* .nav-ul {
+        width: 0;
+    } */
+}
